@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Pendientes NFL</title>
+</head>
+<body>
+
+  <h1>Operaciones:</h1>
+  <form id="operacionesForm">
+    <label for="operacion">Selecciona una operación:</label>
+    <select id="operacion" name="operacion">
+      <option value="ListaIDs">Lista de IDs</option>
+      <option value="ListaIDsyTitles">Lista de IDs y Titles</option>
+      <option value="PendientesSinResolver">Pendientes sin resolver</option>
+      <option value="PendientesResueltos">Pendientes resueltos</option>
+      <option value="PendientesConUserID">Pendientes con UserID</option>
+      <option value="PendientesResueltosConUserID">Pendientes resueltos con UserID</option>
+      <option value="PendientesSinResolverConUserID">Pendientes sin resolver con UserID</option>
+    </select>
+    <button type="button" onclick="ejecutarOperacion()">Buscar</button>
+  </form>
+
+  <h2>Resultados:</h2>
+  <div id="resultados"></div>
+
+  <script>
+
+    var url = "http://jsonplaceholder.typicode.com/todos";
+
+    function obtenerListaPendientes() {
+      return fetch(url)
+        .then(response => response.json())
+        .then(data => data);
+    }
+
+    
+    function ListaIDs(pendientes) {
+      var resultadosDiv = document.getElementById("resultados");
+      resultadosDiv.innerHTML = "<p>Lista de todos los pendientes (solo IDs):</p>";
+      pendientes.forEach(pendiente => {
+        resultadosDiv.innerHTML += "<p>ID: " + pendiente.id + "</p>";
+      });
+    }
+
+    function ListaIDsyTitles(pendientes) {
+      var resultadosDiv = document.getElementById("resultados");
+      resultadosDiv.innerHTML = "<p>Lista de todos los pendientes (IDs y Titles):</p>";
+      pendientes.forEach(pendiente => {
+        resultadosDiv.innerHTML += "<p>ID: " + pendiente.id + ", Title: " + pendiente.title + "</p>";
+      });
+    }
+
+    function PendientesSinResolver(pendientes) {
+      var resultadosDiv = document.getElementById("resultados");
+      resultadosDiv.innerHTML = "<p>Lista de todos los pendientes sin resolver (ID y Title):</p>";
+      pendientes.forEach(pendiente => {
+        if (!pendiente.completed) {
+          resultadosDiv.innerHTML += "<p>ID: " + pendiente.id + ", Title: " + pendiente.title + "</p>";
+        }
+      });
+    }
+
+    function PendientesResueltos(pendientes) {
+      var resultadosDiv = document.getElementById("resultados");
+      resultadosDiv.innerHTML = "<p>Lista de todos los pendientes resueltos (ID y Title):</p>";
+      pendientes.forEach(pendiente => {
+        if (pendiente.completed) {
+          resultadosDiv.innerHTML += "<p>ID: " + pendiente.id + ", Title: " + pendiente.title + "</p>";
+        }
+      });
+    }
+
+    function PendientesConUserID(pendientes) {
+      var resultadosDiv = document.getElementById("resultados");
+      resultadosDiv.innerHTML = "<p>Lista de todos los pendientes (IDs y userID):</p>";
+      pendientes.forEach(pendiente => {
+        resultadosDiv.innerHTML += "<p>ID: " + pendiente.id + ", userID: " + pendiente.userId + "</p>";
+      });
+    }
+
+    function PendientesResueltosConUserID(pendientes) {
+      var resultadosDiv = document.getElementById("resultados");
+      resultadosDiv.innerHTML = "<p>Lista de todos los pendientes resueltos (ID y userID):</p>";
+      pendientes.forEach(pendiente => {
+        if (pendiente.completed) {
+          resultadosDiv.innerHTML += "<p>ID: " + pendiente.id + ", userID: " + pendiente.userId + "</p>";
+        }
+      });
+    }
+
+    function PendientesSinResolverConUserID(pendientes) {
+      var resultadosDiv = document.getElementById("resultados");
+      resultadosDiv.innerHTML = "<p>Lista de todos los pendientes sin resolver (ID y userID):</p>";
+      pendientes.forEach(pendiente => {
+        if (!pendiente.completed) {
+          resultadosDiv.innerHTML += "<p>ID: " + pendiente.id + ", userID: " + pendiente.userId + "</p>";
+        }
+      });
+    }
+
+    // Opciones a realizar
+    function ejecutarOperacion() {
+      obtenerListaPendientes()
+        .then(pendientes => {
+          var operacionSeleccionada = document.getElementById("operacion").value;
+          switch (operacionSeleccionada) {
+            case "ListaIDs":
+              ListaIDs(pendientes);
+              break;
+            case "ListaIDsyTitles":
+              ListaIDsyTitles(pendientes);
+              break;
+            case "PendientesSinResolver":
+              PendientesSinResolver(pendientes);
+              break;
+            case "PendientesResueltos":
+              PendientesResueltos(pendientes);
+              break;
+            case "PendientesConUserID":
+              PendientesConUserID(pendientes);
+              break;
+            case "PendientesResueltosConUserID":
+              PendientesResueltosConUserID(pendientes);
+              break;
+            case "PendientesSinResolverConUserID":
+              PendientesSinResolverConUserID(pendientes);
+              break;
+            default:
+              console.error("Operación no válida");
+          }
+        })
+        .catch(error => console.error("Error al obtener la lista de pendientes:", error));
+    }
+
+  </script>
+
+</body>
+</html>
