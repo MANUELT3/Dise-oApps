@@ -1,0 +1,252 @@
+[
+    {
+        "type": "table",
+        "name": "vestidos",
+        "database": "proyectotextil",
+        "data": 
+    [
+    {
+        "codigo": "VENBF",
+        "nombre": "Vestido de encaje blanco con motivos florales",
+        "talla": "M",
+        "descripcion": "Encaje blanco, motivos florales, puro, rom\u00e1ntico.",
+        "precioVenta": "1006",
+        "fabrica": "GTMTY",
+        "imagen1": "V2-Frente.jpg",
+        "imagen2": "V2-Detras.jpg"
+    },
+    {
+        "codigo": "VENDL",
+        "nombre": "Vestido de encaje dorado con detalles de lentejuel",
+        "talla": "L",
+        "descripcion": "Encaje dorado, lentejuelas, brillante, festivo.",
+        "precioVenta": "1177",
+        "fabrica": "GTTIJ",
+        "imagen1": "V3-Frente.jpg",
+        "imagen2": "V3-Detras.jpg"
+    },
+    {
+        "codigo": "VENGN",
+        "nombre": "Vestido de encaje negro con un aire g\u00f3tico",
+        "talla": "S",
+        "descripcion": "Encaje negro, aire g\u00f3tico, elegante, misterioso.",
+        "precioVenta": "1014",
+        "fabrica": "GTMTY",
+        "imagen1": "V1-Frente.jpg",
+        "imagen2": "V1-Detras.jpg"
+    },
+    {
+        "codigo": "VGBAM",
+        "nombre": "Vestido de georgette azul marino con bajo asim\u00e9tri",
+        "talla": "L",
+        "descripcion": "Georgette azul marino, bajo asim\u00e9trico, chic.",
+        "precioVenta": "1161",
+        "fabrica": "GTTIJ",
+        "imagen1": "V6-Frente.jpg",
+        "imagen2": "V6-Detras.jpg"
+    },
+    {
+        "codigo": "VGBPD",
+        "nombre": "Vestido de georgette blanco con detalles",
+        "talla": "S",
+        "descripcion": "Georgette blanco,  sofisticado.",
+        "precioVenta": "1016",
+        "fabrica": "GTGDL",
+        "imagen1": "V4-Frente.jpg",
+        "imagen2": "V4-Detras.jpg"
+    },
+    {
+        "codigo": "VGNSA",
+        "nombre": "Vestido de georgette negro con siluetas ajustadas",
+        "talla": "M",
+        "descripcion": "Georgette negro, silueta ajustada, moderno.",
+        "precioVenta": "931",
+        "fabrica": "GTMTY",
+        "imagen1": "V5-Frente.jpg",
+        "imagen2": "V5-Detras.jpg"
+    },
+    {
+        "codigo": "VLBBO",
+        "nombre": "Vestido lentejuela blanco con bordados",
+        "talla": "M",
+        "descripcion": "lentejuela blanco, bordados, cl\u00e1sico, atemporal.",
+        "precioVenta": "1016",
+        "fabrica": "GTMTY",
+        "imagen1": "V8-Frente.png",
+        "imagen2": "V8-Detras.png"
+    },
+    {
+        "codigo": "VLGST",
+        "nombre": "Vestido lentejuela verde con siluetas de t\u00fanica",
+        "talla": "S",
+        "descripcion": "lentejuela verde, silueta de t\u00fanica, relajado.",
+        "precioVenta": "1161",
+        "fabrica": "GTGDL",
+        "imagen1": "V10-Frente.jpg",
+        "imagen2": "V10-Detras.jpg"
+    },
+    {
+        "codigo": "VLNCO",
+        "nombre": "Vestido lentejuela negro con detalles de cut-outs",
+        "talla": "L",
+        "descripcion": "lentejuela negro, cut-outs, audaz, contempor\u00e1neo.",
+        "precioVenta": "931",
+        "fabrica": "GTTIJ",
+        "imagen1": "V9-Frente.jpg",
+        "imagen2": "V9-Detras.jpg"
+    },
+    {
+        "codigo": "VLRV",
+        "nombre": "Vestido lentejuela rojo con detalles de volantes",
+        "talla": "S",
+        "descripcion": "lentejuela rojo, volantes, vibrante, juguet\u00f3n.",
+        "precioVenta": "995",
+        "fabrica": "GTTIJ",
+        "imagen1": "V7-Frente.png",
+        "imagen2": "V7-Detras.jpg"
+    },
+    {
+        "codigo": "VPDC",
+        "nombre": "Vestido de pana guinda con detalles de encaje",
+        "talla": "S",
+        "descripcion": "Pana guinda, encaje, c\u00e1lido, acogedor.",
+        "precioVenta": "1161",
+        "fabrica": "GTTIJ",
+        "imagen1": null,
+        "imagen2": null
+    },
+    {
+        "codigo": "VPDVO",
+        "nombre": "Vestido de pana verde oscuro con detalles de encaj",
+        "talla": "M",
+        "descripcion": "Pana verde oscuro, encaje, profundo, intrigante.",
+        "precioVenta": "1180",
+        "fabrica": "GTGDL",
+        "imagen1": null,
+        "imagen2": null
+    },
+    {
+        "codigo": "VSDBE",
+        "nombre": "Vestido de seda blanco con detalles de encaje",
+        "talla": "S",
+        "descripcion": "Seda blanco, encaje, lujoso, et\u00e9reo.",
+        "precioVenta": "900",
+        "fabrica": "GTMTY",
+        "imagen1": null,
+        "imagen2": null
+    },
+    {
+        "codigo": "VSDBN",
+        "nombre": "Vestido de seda negro con detalles de encaje",
+        "talla": "M",
+        "descripcion": "Seda negro, encaje, sofisticado, seductor.",
+        "precioVenta": "1097",
+        "fabrica": "GTTIJ",
+        "imagen1": null,
+        "imagen2": null
+    },
+    {
+        "codigo": "VSDGE",
+        "nombre": "Vestido de sat\u00e9n gris con detalles de encaje",
+        "talla": "S",
+        "descripcion": "Sat\u00e9n gris, encaje, neutro, vers\u00e1til.",
+        "precioVenta": "984",
+        "fabrica": "GTTIJ",
+        "imagen1": null,
+        "imagen2": null
+    },
+    {
+        "codigo": "VSDMP",
+        "nombre": "Vestido de sat\u00e9n morado con detalles de encaje",
+        "talla": "M",
+        "descripcion": "Sat\u00e9n morado, encaje, real, majestuoso.",
+        "precioVenta": "1016",
+        "fabrica": "GTTIJ",
+        "imagen1": null,
+        "imagen2": null
+    },
+    {
+        "codigo": "VSDNE",
+        "nombre": "Vestido de sat\u00e9n negro con detalles de encaje",
+        "talla": "L",
+        "descripcion": "Sat\u00e9n negro, encaje, cl\u00e1sico, elegante.",
+        "precioVenta": "931",
+        "fabrica": "GTGDL",
+        "imagen1": null,
+        "imagen2": null
+    },
+    {
+        "codigo": "VSDNP",
+        "nombre": "Vestido de sat\u00e9n naranja pastel con detalles de en",
+        "talla": "M",
+        "descripcion": "Sat\u00e9n naranja pastel, encaje, suave, alegre.",
+        "precioVenta": "900",
+        "fabrica": "GTGDL",
+        "imagen1": null,
+        "imagen2": null
+    },
+    {
+        "codigo": "VSDVE",
+        "nombre": "Vestido de sat\u00e9n verde oscuro con detalles de enca",
+        "talla": "L",
+        "descripcion": "Sat\u00e9n verde oscuro, encaje, rico, opulento.",
+        "precioVenta": "1143",
+        "fabrica": "GTGDL",
+        "imagen1": null,
+        "imagen2": null
+    },
+    {
+        "codigo": "VTAN",
+        "nombre": "Vestido de tul azul marino con detalles de encaje",
+        "talla": "M",
+        "descripcion": "Tul azul marino, encaje, delicado, femenino.",
+        "precioVenta": "941",
+        "fabrica": "GTMTY",
+        "imagen1": "V11-Frente.jpg",
+        "imagen2": "V11-Detras.jpg"
+    },
+    {
+        "codigo": "VTARL",
+        "nombre": "Vestido de tul azul rey con detalles de lentejuela",
+        "talla": "L",
+        "descripcion": "Tul azul rey, lentejuelas, llamativo, regio.",
+        "precioVenta": "982",
+        "fabrica": "GTTIJ",
+        "imagen1": "V12-Frente.jpg",
+        "imagen2": "V12-Detras.jpg"
+    },
+    {
+        "codigo": "VTCE",
+        "nombre": "Vestido de tul caf\u00e9 con detalles de encaje",
+        "talla": "L",
+        "descripcion": "Tul caf\u00e9, encaje, terroso, bohemio.",
+        "precioVenta": "984",
+        "fabrica": "GTTIJ",
+        "imagen1": null,
+        "imagen2": null
+    },
+    {
+        "codigo": "VTPRP",
+        "nombre": "Vestido de tul rosa palo con detalles de perlas",
+        "talla": "M",
+        "descripcion": "Tul rosa palo, perlas, suave, dulce.",
+        "precioVenta": "1109",
+        "fabrica": "GTMTY",
+        "imagen1": "V14-Frente.jpg",
+        "imagen2": "V14-Detras.jpg"
+    },
+    {
+        "codigo": "VTRP",
+        "nombre": "Vestido de tul rojo con detalles de pedrer\u00eda",
+        "talla": "S",
+        "descripcion": "Tul rojo, pedrer\u00eda, apasionado, dram\u00e1tico.",
+        "precioVenta": "1199",
+        "fabrica": "GTGDL",
+        "imagen1": "V13-Frente.jpg",
+        "imagen2": "V13-Detras.jpg"
+    }
+    ]
+    
+    }
+    ]
+    
