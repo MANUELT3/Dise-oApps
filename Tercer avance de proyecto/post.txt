@@ -1,0 +1,8 @@
+{
+  "codigo": "34364",
+  "nombre": "Vestido de prueba",
+  "talla": "L",
+  "descripcion": "Vestido de prueba para inserción",
+  "precioVenta": 49,
+  "imagen": "imagen1.jpg"
+}
